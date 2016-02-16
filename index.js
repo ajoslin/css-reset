@@ -16,6 +16,7 @@ module.exports = function reset () {
       'vertical-align': 'baseline'
     }),
     rule('body', {'line-height': 1}),
+    rule(['ol', 'ul'], {'list-style': 'none'}),
     rule(['blockquote', 'q'], {quotes: 'none'}),
     rule(['blockquote:before', 'blockquote:after', 'q:before', 'q:after'], {
       content: ['', 'none']
