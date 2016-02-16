@@ -1,0 +1,36 @@
+{
+  "name": "@eaze/css-reset",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Aggressive CSS resets that remove non-essential browser defaults",
+  "license": "MIT",
+  "repository": "eaze/css-reset",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "browser",
+    "default",
+    "base"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^5.0.0"
+  },
+  "files": [
+    "index.js",
+    "elements.json"
+  ],
+  "dependencies": {
+    "cast-array": "~1.0.1",
+    "insert-styles": "~1.0.0",
+    "to-css": "~1.2.1"
+  }
+}
