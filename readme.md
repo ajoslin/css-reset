@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save css-reset
+$ npm install --save @eaze/css-reset
 ```
 
 
 ## Usage
 
 ```js
-var cssReset = require('css-reset')
+var cssReset = require('@eaze/css-reset')
 
 cssReset()
 //=> appends style rules to the head
