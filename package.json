@@ -1,7 +1,7 @@
 {
   "name": "@eaze/css-reset",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aggressive CSS resets that remove non-essential browser defaults",
   "license": "MIT",
   "repository": "eaze/css-reset",
