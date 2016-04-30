@@ -26,7 +26,8 @@
   },
   "files": [
     "index.js",
-    "elements.json"
+    "elements.json",
+    "object.js"
   ],
   "dependencies": {
     "cast-array": "~1.0.1",
